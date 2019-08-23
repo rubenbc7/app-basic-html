@@ -1,8 +1,21 @@
 body{
-
+background-color: gray;
+text-align: center;
+line-height: 100vh;
+margin: 0;
 }
-
 button{
+   background-color: white; 
+   vertical-align: middle;
+   color: black;
+   width: 80px;
+   height: 400px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bold;
+}
+
+button.sharp{
+   width: 50px;
+   background-color: #000;
+   color: #fff;
 }
